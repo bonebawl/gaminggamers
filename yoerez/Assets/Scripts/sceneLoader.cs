@@ -48,4 +48,8 @@ public class SceneLoader : MonoBehaviour
     {
         LoadScene("chapter");
     }
+    
+    public void exit(){
+        Application.Quit();
+    }
 }
